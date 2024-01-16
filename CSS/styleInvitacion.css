@@ -403,8 +403,8 @@ a:link, a:visited {
 }
 
 .social{
-    width: 11%;
-    margin: 30px;
+    width: 35%;
+    margin: 10px;
     transition: all 600ms ease;
     transform: scale(0.90);
 }
