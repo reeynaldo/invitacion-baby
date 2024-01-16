@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <meta name="viewport" content="initial-scale=1.0, user-scalable=yes"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/styleInvitacion.css">
+    <link rel="shortcut icon" href="IMG/boda/baile.png">
+    <title class="titulo">Nuestra boda: E+A</title>
+    <script src="jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="flex-center" id="carta">
+        <img src="IMG/boda/carta-arriba.png" alt="" class="carta-arriba">
+        <img src="IMG/boda/carta-abajo.png" alt="" class="carta-abajo">
+        <button class="abrir" id="abrir">Abrir</button>
+    </div>
+
+    <div class="flex-center" id="fondo">
+        <div id="contenedor-portada" class="flex-center"><br><br><br><br><br><br><br>
+            <h1 class="texto-medium">TE INVITAMOS A CELEBRAR LA LLEGADA DE NUESTRA PEQUEÑA</h1>
+            <h1 class="titulo">Ailani</h1>
+            <img src="IMG/portada.jpg" alt="" class="img-portada"><br>
+            <h1 class="texto-medium">- GUARDA ESTA FECHA -</h1>
+            <h1 class="texto-medium">Sabado, 24 de Febrero 2024</h1>
+        </div>
+        <div id="contenedor" class="flex-center uno">
+            <br><br>
+            <h1 class="titulo">¡Ya viene la cigüeña!</h1>
+            <!-- <h1 class="comillas">“</h1>
+            <h1 class="texto-medium" class="msj">El amor de tus padres será tu bendición,
+                tu crecimiento y logros nuestra ilusión..</h1> <br><br> --><br>
+            <h1 class="texto-medium" class="msj">Un nuevo bebé está por llegar, así que festejemos este día tan especial..</h1>
+            <br><br>
+        </div>
+
+        <div class="flex-center-blanco">
+        <div id="contenedor" class="flex-center tres">
+            <br><br><img src="IMG/fiesta.png" class="icono" alt=""><br>
+            <h1 class="titulo">Celebración</h1>
+            <h1 class="texto-medium">Balneario La K'scada</h1><br>
+            <h1 class="texto-medium">5:00 P.M</h1><br>
+            <h1 class="texto-medium">Mina Sur, Centro, 40850 Petatlán, Gro.</h1><br>
+            <a class="button" href="https://maps.app.goo.gl/W17SJVuWYgNB3ACp6" target="_blank" rel="noopener noreferrer">ABRIR MAPA</a><br>
+        </div></div>
+
+        <div id="contenedor-cinta" class="flex-center">
+            <br><br><br>
+            <h1 class="titulo">¡ Solo faltan !</h1><br>
+            <div id="cuenta"></div><br><br><br>
+        </div>
+
+        <div id="contenedor" class="flex-center asistencia">
+            <br><br><br>
+            <h1 class="titulo">Confirmar Asistencia</h1>
+            <h1 class="texto-medium">Es muy importante para nosotros contar con tu confirmación lo antes posible.</h1>
+            <br>
+            <div class="flex-row">
+                <a class="texto-medium" href="tel:+527581030881" target="_blank"><img class="contacto"
+                        src="IMG/telefono.png" alt=""><br>Llámame</a>
+                <a class="texto-medium"
+                    href="https://api.whatsapp.com/send?phone=+527581030881&text=Hola Ale, Muchas gracias por invitarme, mi respuesta a tu invitación es: "
+                    target="_blank" rel="noopener noreferrer"><img class="contacto" src="IMG/whats.png"
+                        alt=""><br>Contáctame</a>
+            </div> <br><br><br>
+        </div>
+
+        <div id="contenedor" class="flex-center hash">
+            <br><br>
+            <div class="linea-lef"></div><br><br><br>
+            <h1 class="texto-medium">NUESTROS RECUERDOS</h1><br>
+            <h1 class="titulo">Hashtag...</h1><br>
+            <h1 class="texto-medium">No olvides etiquetarnos en todas tus publicaciones de Instagram y Facebook
+                utilizando nuestro Hashtag...</h1><br>
+            <h1 class="texto-large hashtag">#babyshower-Ailani</h1>
+            <br><br><br>
+            <div class="linea-right"></div><br>
+            <div class="flex-row">
+            <!-- <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="social"><img src="IMG/instagram.png" class="social" id="instagram" alt=""></a>  -->
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" class="social">
+                <img src="IMG/instagram.png" class="social" id="instagram" alt="">
+            </a>    
+            
+                <img src="IMG/facebook.png" class="social" id="facebook" alt=""> 
+            </div>
+        </div><br><br><br>
+
+        <div id="contenedor" class="flex-center">
+            <a href="https://api.whatsapp.com/send?phone=+525521358480&text=Hola, Quisiera cotizar una invitación digital"
+                target="_blank" rel="noopener noreferrer" class="texto-medium link">- Invitación digital
+                -</a><br><br><br>
+        </div>
+
+       <script src="JS/baby/simplyCountdown.min.js"></script>
+       <script src="JS/baby/countdown.js"></script>
+       
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
